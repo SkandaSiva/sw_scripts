@@ -1,0 +1,1 @@
+const cacheName='blogCache';const offlineUrl='/offline/';self.addEventListener('install',function(event){});self.addEventListener('fetch',function(event){});

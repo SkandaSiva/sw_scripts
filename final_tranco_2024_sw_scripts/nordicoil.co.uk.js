@@ -1,0 +1,11 @@
+var comm_url = "https://request.pushalert.co/";
+var default_title = "Nordic Oil";
+var default_message = "Welcome!";
+var default_icon = "https://cdn.pushalert.co/icons/default_icon-6313_2.png";
+var default_url = "https://nordicoil.eu";
+var last_updated = "1679656443";
+var client_id = 6313;
+var domain_id = 2;
+var pa_subdomain = "https://nordicoil21.pushalert.co";
+var appPublicKey = 'BPs/wi5NhGFQHDUyvD9vYSeV2hq74OFVztI2gw3pQM5YpCOZNIA+/Lja459APbZ8nScH0R7du0mgo5Y86rWX2PY=';
+importScripts("https://cdn.pushalert.co/sw-external-payload.js?t="+last_updated);

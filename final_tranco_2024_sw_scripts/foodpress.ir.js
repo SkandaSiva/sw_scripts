@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/foodpress-website-9820-4a10c413-c872-4bd8-a520-d299ebf02c4a-service-worker.js');

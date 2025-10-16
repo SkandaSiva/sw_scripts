@@ -1,0 +1,1 @@
+importScripts('https://c.killtarget.biz/get-code/messaging-sw');

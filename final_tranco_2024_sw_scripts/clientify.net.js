@@ -1,0 +1,1 @@
+importScripts("https://js.pusher.com/beams/service-worker.js");PusherPushNotifications.onNotificationReceived=({pushEvent,payload,handleNotification,})=>{self.clients.matchAll().then(all=>all.forEach(client=>{client.postMessage(payload.data);}));pushEvent.waitUntil(handleNotification(payload));};

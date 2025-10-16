@@ -1,0 +1,1 @@
+var config={apiKey:"AIzaSyAiPYX31btuq1C3-kSPvZ7NdGpJ_CHkLTU",messagingSenderId:"283345386746",appId:"1:283345386746:web:a88cb3ee4ecff4b5709d43",projectId:"netcore-kuali",user_key:"ADGMOT35CHFLVDHBJNIG50K969RQS2J0MI97IR4LJV4Q96NND7J0",siteid:"ad05957d9f243fdaabad4ad181bc08b7"};importScripts("//cdnt.netcoresmartech.com/swv4.js");

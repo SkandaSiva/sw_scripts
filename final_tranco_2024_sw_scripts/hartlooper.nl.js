@@ -1,0 +1,1 @@
+importScripts('https://hartlooper.nl/content/themes/koepel/serviceworker.js')

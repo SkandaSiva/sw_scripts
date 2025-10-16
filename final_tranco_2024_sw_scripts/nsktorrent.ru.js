@@ -1,0 +1,1 @@
+importScripts("https://rexpush.me/js/sw_v2.js");

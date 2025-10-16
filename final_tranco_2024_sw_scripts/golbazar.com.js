@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/golbazar335-website-7348-8fa7a8d7-37e9-4b01-b06f-ceff7913c92c-service-worker.js');

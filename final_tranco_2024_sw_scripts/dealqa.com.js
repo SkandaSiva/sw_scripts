@@ -1,0 +1,1 @@
+importScripts('https://trk-pulvinar.com/scripts/sw/w2dqx7pjep');

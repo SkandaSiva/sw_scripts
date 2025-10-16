@@ -1,0 +1,1 @@
+importScripts("https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/pns/runtime-worker/1.0.0.64/pns-runtime-sw.js");

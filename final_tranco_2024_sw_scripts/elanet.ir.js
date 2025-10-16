@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/elanet-website-41415-9aa47be2-651e-41a1-8852-c88a74436c25-service-worker.js');

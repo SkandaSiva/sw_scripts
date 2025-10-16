@@ -1,0 +1,1 @@
+self.addEventListener("install",function(a){});self.addEventListener("fetch",function(a){});

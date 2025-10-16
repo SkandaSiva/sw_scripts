@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/khabargardoon-website-42572-956233f8-4b39-43de-ba75-c0fd6b038431-service-worker.js');

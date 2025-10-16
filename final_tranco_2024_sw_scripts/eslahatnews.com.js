@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/eslahatnews-website-38050-9eec16bf-7859-4e6b-90da-25c3cb0adac3-service-worker.js');

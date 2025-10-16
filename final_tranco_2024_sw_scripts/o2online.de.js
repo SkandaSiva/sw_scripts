@@ -1,0 +1,1 @@
+importScripts(`https://o2online-de.app.baqend.com/v1/speedkit/sw.js${location.search}`);

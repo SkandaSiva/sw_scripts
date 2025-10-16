@@ -1,0 +1,1 @@
+self.importScripts('https://cdn.imghaste.com/apemockups.com/service-worker.js');

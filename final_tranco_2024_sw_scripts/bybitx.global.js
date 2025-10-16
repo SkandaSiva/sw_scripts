@@ -1,0 +1,1 @@
+importScripts("/firebase-sw.js");

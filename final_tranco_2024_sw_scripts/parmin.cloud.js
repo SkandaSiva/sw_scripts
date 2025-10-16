@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/parmin543-website-34931-ee399ab9-b224-4a34-81e7-42c815cb6419-service-worker.js');

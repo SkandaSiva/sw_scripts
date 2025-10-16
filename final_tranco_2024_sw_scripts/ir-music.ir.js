@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/ir-music-44095-da30590e-0b33-4e1a-bd5b-036d8e4eb85c-service-worker.js');

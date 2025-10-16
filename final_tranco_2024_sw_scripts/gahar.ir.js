@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/gahar-1851-e8864489-ba57-4ee4-912a-57ad594558a2-service-worker.js');

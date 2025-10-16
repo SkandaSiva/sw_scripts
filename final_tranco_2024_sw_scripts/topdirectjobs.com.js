@@ -1,0 +1,1 @@
+importScripts("https://api.pushnami.com/scripts/v2/pushnami-sw/6512e9450d9d2c0013b25e4c");/*pn_wordpress*/

@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/softgozar-website-6984-36fa9dea-f935-4bf8-8e2c-d337e1b642c9-service-worker.js');

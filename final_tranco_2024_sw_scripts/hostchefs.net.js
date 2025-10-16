@@ -1,0 +1,1 @@
+self.importScripts('https://cdn.hostchefs.net/o5Orvb6fL5/service-worker.js');

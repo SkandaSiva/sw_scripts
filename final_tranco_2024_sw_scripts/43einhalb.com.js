@@ -1,0 +1,1 @@
+importScripts(`https://dreiundvierzigeinhalb.app.baqend.com/v1/speedkit/sw.js${location.search}`);

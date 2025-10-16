@@ -1,0 +1,1 @@
+importScripts("https://d196nughcth94f.cloudfront.net/service-worker_icomm.js");

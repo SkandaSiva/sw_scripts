@@ -1,0 +1,1 @@
+self.importScripts('https://js.smartsender.io/js/v1/worker/63a4ae84890ede1aec59e2c7.js')

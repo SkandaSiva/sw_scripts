@@ -1,0 +1,1 @@
+self.importScripts('https://cdn.pushflow.net/scripts/current/serviceworker/w1.js');

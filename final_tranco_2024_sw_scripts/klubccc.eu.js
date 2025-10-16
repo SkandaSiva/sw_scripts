@@ -1,0 +1,1 @@
+importScripts('https://proxy.synerise.com/rtom/configs/c4t4xCqYQ86u/sw.js');

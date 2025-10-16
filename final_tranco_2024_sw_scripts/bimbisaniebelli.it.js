@@ -1,0 +1,1 @@
+importScripts('https://pushdeploy.estrema.it/shared/sw/serviceworker-BS230901.js');

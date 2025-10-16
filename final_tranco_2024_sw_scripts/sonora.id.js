@@ -1,0 +1,1 @@
+"function"===typeof importScripts&&importScripts("https://asset.kompas.com/kgnotif/sonora-sw.js");

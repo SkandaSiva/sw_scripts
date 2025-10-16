@@ -1,0 +1,2 @@
+importScripts("https://via.batch.com/v2/worker.min.js"),["pushsubscriptionchange","push","notificationclick","message","install"].forEach(t=>{self.addEventListener(t,i=>{i.waitUntil(self.handleBatchSDKEvent(t,i))})});
+//# sourceMappingURL=/etc.clientlibs/barcelo/clientlibs/clientlib-serviceworker/resources/serviceworker.js.map

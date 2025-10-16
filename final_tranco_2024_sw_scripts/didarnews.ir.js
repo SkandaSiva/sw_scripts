@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/didarnews-website-5996-f771b807-f8c1-4ed7-a6bb-fa3529dada12-service-worker.js');

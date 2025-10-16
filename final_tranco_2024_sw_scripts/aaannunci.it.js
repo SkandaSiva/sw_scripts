@@ -1,0 +1,1 @@
+importScripts('https://www.aaannunci.it/service-worker.js', 'https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js');

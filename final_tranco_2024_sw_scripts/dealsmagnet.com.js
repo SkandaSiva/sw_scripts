@@ -1,0 +1,5 @@
+const CacheName='DealsmagnetV1';const FilesToCatch=['https://www.dealsmagnet.com/offline-page.html'];const offlineCache='https://www.dealsmagnet.com/offline-page.html';self.addEventListener('install',e=>{e.waitUntil(caches.open(CacheName).then(cache=>{cache.addAll(FilesToCatch).then(()=>self.skipWaiting())}));})
+self.addEventListener('activate',e=>{console.log('Service Worker - Activated')
+e.waitUntil(caches.keys().then(cacheNames=>{return Promise.all(cacheNames.map(cache=>{if(cache!==CacheName){console.log('Service Worker: Clearing Old Cache');return caches.delete(cache);}}))}));});self.addEventListener('fetch',e=>{console.log('Service Worker: Fetching');e.respondWith(fetch(e.request).then(function(response){return caches.open(CacheName).then(function(cache){if(e.request.method=="GET"){cache.put(e.request,response.clone());}
+return response;})}).catch(function(){return caches.match(e.request).then(function(res){if(res===undefined){return caches.match(offlineCache)}
+return res;});}))});

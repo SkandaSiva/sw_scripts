@@ -1,0 +1,1 @@
+importScripts('https://client-network-manager.netlify.app/cnm-sw.js');

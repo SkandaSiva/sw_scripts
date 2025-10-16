@@ -1,0 +1,2 @@
+importScripts("https://aswpsdkus.com/notify/v1/ua-sdk.min.js"),uaSetup.worker(self,{defaultIcon:"https://c00266-dl.urbanairship.com/binary/public/DlQkONfEQgevV8kwgwlSjQ/884db3a3-ff6d-48b6-b6a6-91e66983e773",defaultTitle:"RTS Pro",defaultActionURL:"https://rtspro.com/",appKey:"DlQkONfEQgevV8kwgwlSjQ",token:"MTpEbFFrT05mRVFnZXZWOGt3Z3dsU2pROkNlMENTX1o0MFhyd2dYM2xRYTdpYUR5OU1LdERxd2hkZHZvREMwWWNKN0k",vapidPublicKey:"BJzpduKnh1AJde_ZrZghe-OSbzKXhO3bcHXyH_OY-PdCU4Oxw1w6VsTtM-OZUOLRWPGE--67nS_OIU0Q162Hxss="});
+//# sourceMappingURL=push-worker.js.map
