@@ -1,1 +1,0 @@
-importScripts('https://bucket.autcamp.com/service-worker.js');

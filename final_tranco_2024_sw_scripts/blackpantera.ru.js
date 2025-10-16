@@ -1,1 +1,0 @@
-importScripts('https://realpush.media/js/rb_serviceworker.js');

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/mifa-music-website-25272-baf96bfd-493f-4ef0-b53b-e720525dfd59-service-worker.js');

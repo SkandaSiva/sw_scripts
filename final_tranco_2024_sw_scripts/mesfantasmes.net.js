@@ -1,1 +1,0 @@
-importScripts('https://ads.adextrem.com/push/serviceWorker.js');

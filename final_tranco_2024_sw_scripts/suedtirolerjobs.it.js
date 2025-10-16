@@ -1,1 +1,0 @@
-self.addEventListener("push",(function(t){const i=t.data.json(),n={body:i.body,icon:i.icon,data:i.data};t.waitUntil(self.registration.showNotification(i.title,n))})),self.addEventListener("notificationclick",(function(t){const i=t.notification.data;t.notification.close(),i&&i.url&&t.waitUntil(clients.openWindow(i.url))}));

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/selinmusic-website-23390-81fe09d9-a8a9-46e7-8d9e-a8039795943c-service-worker.js');

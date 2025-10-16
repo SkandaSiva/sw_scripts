@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/rashedoon-website-18310-61ee1665-03c6-4ed5-bf9e-d1ff36563a8d-service-worker.js');

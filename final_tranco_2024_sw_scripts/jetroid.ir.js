@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/jetroid-website-31358-d8767ccf-8ac7-44d5-ba0e-c1db48bd57a9-service-worker.js');

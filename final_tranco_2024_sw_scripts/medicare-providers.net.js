@@ -1,1 +1,0 @@
-importScripts("https://api.pushnami.com/scripts/v2/pushnami-sw/593ad82461c3a6d644c6428c");

@@ -1,1 +1,0 @@
-var site_url='https://www.rapidwebapp.com';importScripts('https://www.rapidwebapp.com/wp-content/plugins/letspush/js/letspush_service_worker.min.js');

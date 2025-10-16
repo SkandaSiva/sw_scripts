@@ -1,1 +1,0 @@
-self.addEventListener('fetch',function(event){const request=event.request;if(request.method==="GET"&&request.destination==="document"){event.respondWith(fetch(request).catch(function(error){console.error("[onfetch] Failed. Serving cached offline fallback",error);return caches.match("/offline.html");}));}});importScripts('./ngsw.js');

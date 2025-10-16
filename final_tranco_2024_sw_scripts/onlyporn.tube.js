@@ -1,1 +1,0 @@
-importScripts('https://sw.wpu.sh/ps/sw.js?loader=2')

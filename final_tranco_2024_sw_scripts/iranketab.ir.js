@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/iranketab-660-e9141ae9-2c37-4c39-9beb-024513fa91d8-service-worker.js');

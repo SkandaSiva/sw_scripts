@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/seratnews-750-2a45d3b9-e8f0-4c54-bc15-a435489bbf14-service-worker.js');

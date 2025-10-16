@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/sharjimusic663-website-30814-d7386728-1558-4ac8-badb-3dc4c2c87c9c-service-worker.js');

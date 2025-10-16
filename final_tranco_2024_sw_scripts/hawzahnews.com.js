@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/hawzahnews-1473-f0900a60-0aa0-48b9-963e-3d29ad43b46a-service-worker.js');

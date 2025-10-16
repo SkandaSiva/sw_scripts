@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/andishemoaser-website-28419-921047e6-4204-4dc2-ab38-ae2020270742-service-worker.js');

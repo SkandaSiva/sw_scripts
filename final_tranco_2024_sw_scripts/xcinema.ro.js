@@ -1,4 +1,0 @@
-const CACHE_NAME='v0.88.0';const toCache=[];const getURLList=Object.values(toCache).map(item=>'/'+item.url);const whiteList=['/js/status.js',"/js/bundle.js","/js/jquery.min.js","/js/bootstrap.min.js","/css/bootstrap.min.css","/css/style.css",];const cacheTag=`bkr_cache_${CACHE_NAME}`
-const fileStorage=[...getURLList,...whiteList];self.addEventListener('install',function(event){event.waitUntil(caches.open(cacheTag||"BKRXCache").then(function(cache){return cache.addAll(fileStorage)}).then(self.skipWaiting()))})
-self.addEventListener('fetch',function(event){event.respondWith(fetch(event.request).catch(()=>{return caches.open(cacheTag||"BKRXCache").then((cache)=>{return cache.match(event.request)})}))})
-self.addEventListener('activate',function(event){event.waitUntil(caches.keys().then((keyList)=>{return Promise.all(keyList.map((key)=>{if(key!==cacheTag||"BKRXCache"){return caches.delete(key)}}))}).then(()=>self.clients.claim()))})

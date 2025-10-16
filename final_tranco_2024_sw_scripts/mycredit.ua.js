@@ -1,1 +1,0 @@
-self[`appKey`]="2e68aafd7488d5d209f8a8bb6f34b3cc";self[`hostUrl`]="https://cdn.gravitec.net/sw";self.importScripts(`${self[`hostUrl`]}/worker.js`);

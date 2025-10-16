@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/ecell-website-20125-786c5b62-4cee-484a-80c9-9531768c9baa-service-worker.js');

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/tahlilbazaar198-website-14373-f4abaaf0-2f2a-44ee-a366-46caed09473a-service-worker.js');

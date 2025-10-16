@@ -1,1 +1,0 @@
-importScripts("https://pushservice.b-cdn.net/integration/request/105982477/");

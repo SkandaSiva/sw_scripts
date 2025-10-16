@@ -1,1 +1,0 @@
-importScripts('https://sandbox-api-esp.piano.io/esp-service-worker.js');

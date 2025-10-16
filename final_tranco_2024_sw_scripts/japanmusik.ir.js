@@ -1,1 +1,0 @@
-importScripts('https://scriptapi.adwisedfs.com/api/webpush/sw/3b92988b-2e8f-47af-9cb0-cb1c985a3fa7.js');

@@ -1,1 +1,0 @@
-try{importScripts("https://federatedmodules.icfcdn.com/pushnotifications/pushnotifications-sw_1.1.6.js"),startServiceWorker()}catch(t){console.log(t)}

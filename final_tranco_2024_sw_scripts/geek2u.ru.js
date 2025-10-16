@@ -1,1 +1,0 @@
-importScripts('https://nservw.net/sA6zsexr66.js')

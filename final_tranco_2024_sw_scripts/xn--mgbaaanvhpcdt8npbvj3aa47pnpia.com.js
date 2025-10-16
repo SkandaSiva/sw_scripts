@@ -1,1 +1,0 @@
-var site_url='https://www.xn--mgbaaanvhpcdt8npbvj3aa47pnpia.com';importScripts('https://www.xn--mgbaaanvhpcdt8npbvj3aa47pnpia.com/wp-content/plugins/letspush/js/letspush_service_worker.min.js');

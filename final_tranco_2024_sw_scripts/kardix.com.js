@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/talentcoach402-website-46091-392e6fb8-85ff-4705-872e-e635c18c5582-service-worker.js');

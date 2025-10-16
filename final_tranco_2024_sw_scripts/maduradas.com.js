@@ -1,1 +1,0 @@
-!function(){"use strict";self.params=location.search.substring(1).split("&").reduce(function(s,r){var t=r.split("="),e=t[0],a=t[1];return s[e]=a,s},{});var s=self.params.resourcesHost||"https://bc.marfeel.com";self.importScripts(s+"/statics/marfeel/sw-router.js")}();

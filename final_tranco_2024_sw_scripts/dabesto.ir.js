@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/dabesto-website-16502-415d410a-d6b5-4949-9391-3ecf1d1a205a-service-worker.js');

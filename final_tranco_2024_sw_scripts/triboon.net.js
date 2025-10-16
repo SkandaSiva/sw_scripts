@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/triboon-website-6004-d84862d3-2c63-4044-aa6f-ee305fa67ccd-service-worker.js');

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/sedayebourse-website-27884-c7ef49f6-5fcf-47dd-9cb8-ef14c7d4af5b-service-worker.js');

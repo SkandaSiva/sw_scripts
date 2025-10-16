@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/tejaratnews853-website-5574-f9a63b41-2e17-4195-b821-82a8b81c923f-service-worker.js');

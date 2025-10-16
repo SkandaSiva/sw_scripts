@@ -1,1 +1,0 @@
-importScripts('https://s3.amazonaws.com/sdk.zowpo.com/zowpo-sw.js');

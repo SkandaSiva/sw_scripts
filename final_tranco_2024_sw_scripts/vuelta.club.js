@@ -1,1 +1,0 @@
-importScripts("//alert.guru/projects/oKjQry/sw.js?version=1.0.0");

@@ -1,1 +1,0 @@
-"function"===typeof importScripts&&importScripts("https://storage.googleapis.com/dreamf-mcm-public-storage/js/juno/pro/kariba-service-worker.js");

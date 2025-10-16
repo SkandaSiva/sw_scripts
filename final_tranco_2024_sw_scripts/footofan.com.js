@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/footofan-1003554-94ecd29d-db37-4262-9d35-a50eca26197d-service-worker.js');

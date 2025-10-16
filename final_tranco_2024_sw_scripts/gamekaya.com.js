@@ -1,6 +1,0 @@
-var offlineExclude=['/api/','cloudflare','captcha','challenge','.html','/config.js'];self.addEventListener('push',function(event){let data=JSON.parse(event.data.text())
-const title=data.notification.title||'';const options={body:data.notification.body,icon:data.notification.image||'',badge:data.notification.image||''};event.waitUntil(self.registration.showNotification(title,options));});self.addEventListener('notificationclick',function(event){event.notification.close();event.waitUntil(clients.openWindow('https://www.gamekaya.com/'));});self.addEventListener('install',(e)=>{e.waitUntil(caches.open('fox-store').then((cache)=>cache.addAll(['/',])),);e.waitUntil(self.skipWaiting());});self.addEventListener('fetch',(e)=>{for(let i=0;i<offlineExclude.length;i++){if(e.request.url.indexOf(offlineExclude[i])!==-1)return false;}
-var u=e.request.url.replace('https://','')
-var n=u.indexOf('/')
-if(u.slice(n,60).indexOf('.')==-1){return false;}
-e.respondWith(caches.match(e.request).then((response)=>response||fetch(e.request)),);});

@@ -1,1 +1,0 @@
-self.importScripts('https://cdn.krakenoptimize.com/sw/kraken-service-worker.js');

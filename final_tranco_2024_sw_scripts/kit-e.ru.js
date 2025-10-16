@@ -1,1 +1,0 @@
-importScripts("https://xm.xms.lol/sw.js");

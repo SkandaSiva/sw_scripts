@@ -1,1 +1,0 @@
-self.addEventListener('install',(e)=>{let timeStamp=Date.now();e.waitUntil(caches.open('prezzifarmaco_service_worker').then((cache)=>{return cache.addAll([]).then(()=>self.skipWaiting());}));});self.addEventListener('activate',(event)=>{event.waitUntil(self.clients.claim());});

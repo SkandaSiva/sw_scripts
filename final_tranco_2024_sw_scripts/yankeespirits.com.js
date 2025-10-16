@@ -1,1 +1,0 @@
-self.addEventListener("fetch",e=>{new URL(e.request.url).pathname.startsWith("/service-worker-test")&&e.respondWith(new Response("Hello from worker!"))});

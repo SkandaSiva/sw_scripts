@@ -1,1 +1,0 @@
-importScripts('https://www.bildir.mobi/sw.js');

@@ -1,1 +1,0 @@
-importScripts('https://nservw.net/smSmcu8dv.js')

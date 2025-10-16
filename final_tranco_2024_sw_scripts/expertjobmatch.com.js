@@ -1,1 +1,0 @@
-importScripts('/get/service-worker');

@@ -1,1 +1,0 @@
-importScripts('https://cdn-app.push-ad.com/api/pushAdWorkerMain.js');

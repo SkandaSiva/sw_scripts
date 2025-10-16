@@ -1,1 +1,0 @@
-importScripts('https://static.neopush.io/sdk/serviceWorker.js');

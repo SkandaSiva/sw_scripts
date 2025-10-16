@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/mymusicazin-website-31927-73a72d4e-4c58-406e-8607-5045bdf54a72-service-worker.js');

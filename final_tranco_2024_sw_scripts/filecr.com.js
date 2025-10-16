@@ -1,1 +1,0 @@
-self.addEventListener("push",(event)=>{const data=event.data.json();self.registration.showNotification(data.title,data.options);});self.addEventListener("notificationclick",(event)=>{event.notification.close();const{data}=event.notification;const url=data.actionUrls[event.action]??data.primaryUrl??null;if(url){event.waitUntil(clients.openWindow(url));}});

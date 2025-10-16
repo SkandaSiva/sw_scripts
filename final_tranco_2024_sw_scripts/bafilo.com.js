@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/bafilo-website-35012-a3d9dcba-9b99-4bd6-af07-ad72dfdbc98b-service-worker.js');

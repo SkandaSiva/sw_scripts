@@ -1,1 +1,0 @@
-importScripts("//alert.guru/projects/nraQOr/sw.js?version=1.0.0");

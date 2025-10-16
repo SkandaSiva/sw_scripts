@@ -1,1 +1,0 @@
-importScripts("https://cdn.pushmaster-cdn.xyz/scripts/publishers/6554d91a4c2814000830d702/service-worker.js")

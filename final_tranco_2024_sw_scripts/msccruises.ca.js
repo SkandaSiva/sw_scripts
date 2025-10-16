@@ -1,1 +1,0 @@
-importScripts('https://static.fanplayr.com/client/sw.js');

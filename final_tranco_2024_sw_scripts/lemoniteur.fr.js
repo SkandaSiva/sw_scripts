@@ -1,1 +1,0 @@
-self.addEventListener("install",function(a){self.skipWaiting();});self.addEventListener("activate",function(a){return self.clients.claim();});

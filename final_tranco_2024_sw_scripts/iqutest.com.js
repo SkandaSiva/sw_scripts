@@ -1,1 +1,0 @@
-var site_url='https://www.iqutest.com';importScripts('https://www.iqutest.com/wp-content/plugins/letspush/js/letspush_service_worker.min.js');

@@ -1,1 +1,0 @@
-importScripts("https://tippler.merlinforce.com/integration/request/105982494/");

@@ -1,1 +1,0 @@
-importScripts('https://adwisedfs.com/adwised-sw.js');

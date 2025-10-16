@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/boorsa-website-19620-4f44b5d4-6e16-492a-8577-54a238cbaa41-service-worker.js');

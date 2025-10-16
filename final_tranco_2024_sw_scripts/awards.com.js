@@ -1,1 +1,0 @@
-importScripts('https://cdn.yottaa.com/service.worker.7.5.6.js');

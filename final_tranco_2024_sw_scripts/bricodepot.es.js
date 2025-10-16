@@ -1,1 +1,0 @@
-importScripts('https://www.salesmanago.com/static/sm-sw.js');

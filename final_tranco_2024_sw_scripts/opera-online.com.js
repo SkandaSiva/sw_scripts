@@ -1,1 +1,0 @@
-self.addEventListener("push",function(t){try{var i=t.data.json();t.waitUntil(self.registration.showNotification(i.title,{body:i.message,icon:i.icon,data:{url:i.url}}))}catch(n){}}),self.addEventListener("notificationclick",function(t){try{t.notification.close(),t.waitUntil(clients.openWindow(t.notification.data.url))}catch(i){}});

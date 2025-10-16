@@ -1,1 +1,0 @@
-(()=>{"use strict";importScripts(`${"https://sdk.moneyoyo.com"}/serviceWorker.js`)})();

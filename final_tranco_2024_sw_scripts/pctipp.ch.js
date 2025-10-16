@@ -1,1 +1,0 @@
-importScripts('https://maximizly.s3.eu-central-1.amazonaws.com/sources/webpush/production/worker/maximizly-sw.js');

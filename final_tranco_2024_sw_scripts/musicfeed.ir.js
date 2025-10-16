@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/musicfeed-website-32538-c529929a-6c53-42a0-817b-904d62f946a0-service-worker.js');

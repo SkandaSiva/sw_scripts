@@ -1,1 +1,0 @@
-importScripts('https://pw.wpu.sh/ps/sw.js?tcid=481');

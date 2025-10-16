@@ -1,1 +1,0 @@
-importScripts('https://cdn2.pushpushgo.com/5a0ed4b8e6a480001137c556/worker.js');

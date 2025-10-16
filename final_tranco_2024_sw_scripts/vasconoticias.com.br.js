@@ -1,1 +1,0 @@
-importScripts("https://cdn.megapush.com.br/MegaPushServiceWorker.js");

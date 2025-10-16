@@ -1,1 +1,0 @@
-importScripts('https://lifehacker.ru/wp-content/plugins/lh-push/frontend/sw.js?1');

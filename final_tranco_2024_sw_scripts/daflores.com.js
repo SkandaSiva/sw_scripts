@@ -1,1 +1,0 @@
-var version=6;importScripts('https://cdn.pushcrew.com/sw/47ed91273c9c11b114d911f2f35212e0.js');

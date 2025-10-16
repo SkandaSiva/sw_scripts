@@ -1,1 +1,0 @@
-//importScripts('https://ping.contactpigeon.com/shout/service-worker-away.js');

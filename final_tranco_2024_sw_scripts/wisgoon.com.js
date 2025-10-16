@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/wisgoon-website-19787-ddc10e3d-9a17-4c50-bcba-43062df99fb0-service-worker.js');

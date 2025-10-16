@@ -1,1 +1,0 @@
-importScripts('https://sw.wpu.sh/npc/sdk/common/service-worker.js')

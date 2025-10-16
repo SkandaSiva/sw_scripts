@@ -1,1 +1,0 @@
-const CACHE_NAME=`Gaming Intel`;

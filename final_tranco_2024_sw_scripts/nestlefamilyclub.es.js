@@ -1,1 +1,0 @@
-importScripts('https://s3.amazonaws.com/cdn.mubiquo.net/mplatform/serviceworker-4.0-nfc.js')

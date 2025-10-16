@@ -1,1 +1,0 @@
-self.addEventListener("install",(function(){console.log("New service worker being installed!"),self.skipWaiting()})),self.addEventListener("activate",(()=>{console.log("New service worker is activated!"),self.clients.claim()}));

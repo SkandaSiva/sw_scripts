@@ -1,1 +1,0 @@
-importScripts('https://wesleycatula.com/sw_notification.js');

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/satisho-website-5941-9c529438-73a9-4426-9250-74ce630024da-service-worker.js');

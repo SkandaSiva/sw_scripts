@@ -1,1 +1,0 @@
-importScripts('https://thewebpush.com/our-sw.js');

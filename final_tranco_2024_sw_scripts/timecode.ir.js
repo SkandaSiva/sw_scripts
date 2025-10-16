@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/timecode232-website-10893-65ca1479-10c2-4dae-8b75-7973a8123c72-service-worker.js');

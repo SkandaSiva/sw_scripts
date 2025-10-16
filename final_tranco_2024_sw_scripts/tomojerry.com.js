@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/tomojerry-website-15581-916140bb-56ef-4c45-b868-1f5f6d8b2337-service-worker.js');

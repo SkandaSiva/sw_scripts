@@ -1,1 +1,0 @@
-importScripts("https://cdn.politico.mx/sw/sw.js");

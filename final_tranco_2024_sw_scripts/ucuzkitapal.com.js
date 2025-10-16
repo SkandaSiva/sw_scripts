@@ -1,1 +1,0 @@
-importScripts('https://push.wdc.center/serviceworker_V1.js');

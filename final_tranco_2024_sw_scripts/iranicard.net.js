@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/iranicard304-website-16775-912c2428-b863-43ba-a58e-05e8a2b97dec-service-worker.js');

@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/ahanprice233-website-38498-8faf8bc5-3909-4393-9000-c64c75bab4a7-service-worker.js');

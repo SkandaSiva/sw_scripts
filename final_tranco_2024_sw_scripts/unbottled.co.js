@@ -1,1 +1,0 @@
-importScripts("https://wisepops.net/serviceWorker.js");

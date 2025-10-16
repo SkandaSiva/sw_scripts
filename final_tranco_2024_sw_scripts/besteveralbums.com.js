@@ -1,1 +1,0 @@
-importScripts('https://d3lcz8vpax4lo2.cloudfront.net/service-worker/59300933-95eb-4b28-8053-c185f111bb7e.js')

@@ -1,1 +1,0 @@
-importScripts("https://media.aso1.net/js/push/worker.js");

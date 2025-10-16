@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/papcoiran250-website-13202-8f5c71de-055e-4555-9a3f-d6e61b4e81fe-service-worker.js');

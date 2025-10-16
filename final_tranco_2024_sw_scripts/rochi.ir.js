@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/Rochi-website-29746-9b4ac0d0-47b0-4ebf-89ef-fb8b03c2031f-service-worker.js');

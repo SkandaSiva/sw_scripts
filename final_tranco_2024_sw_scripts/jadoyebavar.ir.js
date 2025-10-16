@@ -1,1 +1,0 @@
-importScripts('https://van.najva.com/static/js/scripts/jadoyebavar132-website-32133-a5694bc6-bcf6-474e-91f1-961dec2bcba5-service-worker.js');

@@ -1,1 +1,0 @@
-importScripts('https://api.push-ad.com/v1/pushAdWorker.js');
