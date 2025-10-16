@@ -1,0 +1,1 @@
+importScripts("https://aios.wordfence.me/sw.js");

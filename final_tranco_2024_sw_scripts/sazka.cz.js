@@ -1,0 +1,1 @@
+importScripts("https://api-analytics.sazka.cz/js/service-worker.min.js");

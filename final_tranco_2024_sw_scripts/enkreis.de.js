@@ -1,0 +1,1 @@
+importScripts('https://components.cross-7.de/worker.js');

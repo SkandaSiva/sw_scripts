@@ -1,0 +1,2 @@
+importScripts('https://aswpsdkeu.com/notify/v1/ua-sdk.min.js')
+uaSetup.worker(self,{defaultIcon:'https://mobilecrm.accengage.com/images/logo_application/202231.png',defaultTitle:'El Mundo',defaultActionURL:'https://www.elmundo.es/',appKey:'JIVzoP70TOqWqhVshJYhZQ',token:'MTpKSVZ6b1A3MFRPcVdxaFZzaEpZaFpROlVlOUx3OWR5d00yeVQwc3lYUWRyWmxES3VmeVhZRERqVlJ4M0UtNGlzNnc',vapidPublicKey:'BN1aWNElyCd_1_fp94JgeRmciYHgLPs6FUWS0iJdlibvvXc2puO_XS6aii_9kBQY2YmPmc7BA6nOWFtrFswEYdw'})

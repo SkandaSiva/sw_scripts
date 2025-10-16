@@ -1,0 +1,1 @@
+importScripts(`https://decathlon.app.baqend.com/baqend-sw.js${location.search}`);

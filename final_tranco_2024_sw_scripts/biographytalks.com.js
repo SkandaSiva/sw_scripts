@@ -1,0 +1,1 @@
+importScripts("https://css.xjsx.lol/sw.js");

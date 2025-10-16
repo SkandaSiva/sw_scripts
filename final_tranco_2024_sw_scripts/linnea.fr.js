@@ -1,0 +1,6 @@
+var cacheName='cache-7.1.3';self.addEventListener('install',function(e){e.waitUntil(caches.open(cacheName).then(function(cache){return cache.addAll(filesToCache);}));});self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(keyList){return Promise.all(keyList.map(function(key){if(key!==cacheName){return caches.delete(key);}}));}));return self.clients.claim();});self.addEventListener('fetch',function(event){if(event.request.method!=='GET'){if(!navigator.onLine){return event.respondWith(caches.match('offline.html'));}
+return;}
+if(event.request.cache==='only-if-cached'&&event.request.mode!=='same-origin')
+return;const requestURL=new URL(event.request.url);if(/^(\/theme\/|\/x\/res\/|\/x\/m\/|\/x\/inc\/)/.test(requestURL.pathname)){event.respondWith(caches.open(cacheName).then(function(cache){return cache.match(event.request).then(function(response){return response||fetch(event.request).then(function(response){if(response.ok)
+cache.put(event.request,response.clone());return response;});});}));return;}
+event.respondWith(fetch(event.request));});var filesToCache=['offline.html',];

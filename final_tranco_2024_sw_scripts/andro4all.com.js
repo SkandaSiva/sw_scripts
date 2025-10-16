@@ -1,0 +1,1 @@
+self.version="2.3.1";importScripts(self.location.href.replace("/sw.js","/localforage.js"));importScripts(self.location.href.replace("/sw.js","/service-worker.js"));

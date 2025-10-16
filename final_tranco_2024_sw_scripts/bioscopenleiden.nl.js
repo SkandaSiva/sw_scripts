@@ -1,0 +1,1 @@
+importScripts('https://bioscopenleiden.nl/content/themes/koepel/serviceworker.js')

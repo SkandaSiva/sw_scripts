@@ -1,0 +1,1 @@
+importScripts('https://anymind360.com/js/12198/anymind-sw.js');

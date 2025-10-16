@@ -1,0 +1,1 @@
+importScripts('https://s-eu-1.pushpushgo.com/642a89c90022d129e90cdcfe/worker.js');

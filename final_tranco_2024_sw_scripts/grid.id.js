@@ -1,0 +1,1 @@
+"function"===typeof importScripts&&importScripts("https://stgrid.kompas.com/kgnotif/grid-sw.js");

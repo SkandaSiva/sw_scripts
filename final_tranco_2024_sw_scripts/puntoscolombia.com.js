@@ -1,0 +1,1 @@
+importScripts('https://api.pushio.com/webpush/sdk/service_min.js');var config='{"appserviceKey":"BMzGE8aXkESdh9WwkPDVMOYT1cAlihaGHXA6S_-lTLJD3tZPi9tFortfxOv5s6uuCU9zlWyFmUXno00ICqhP0qc=","apiKey":"ABEvi7y2fAsUo7NkBcbvZvcOU","accountToken":"ABElH3fLvkN-Dx_Pxxt8q96Gw","appver":"0.0.0","apiHost":"https://api.pushio.com","lazy":false}';orawp.init(config);

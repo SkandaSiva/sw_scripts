@@ -1,0 +1,1 @@
+importScripts('https://grube.salesmanago.com/static/sm-sw.js');

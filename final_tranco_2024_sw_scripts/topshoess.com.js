@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/topshoess-website-46659-71f66cc0-ce89-4924-b7ca-961a9938d995-service-worker.js');

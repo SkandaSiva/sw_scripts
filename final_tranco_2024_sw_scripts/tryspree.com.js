@@ -1,0 +1,1 @@
+self.addEventListener("notificationclick",async function(n){clients.openWindow(n.notification.actions[0].action)}),self.addEventListener("push",async function(n){json=n.data.json(),n.waitUntil(self.registration.showNotification(json.title,{action:json.action,body:json.body,tag:"tryspree-get-free-samples",actions:[{action:json.action,title:json.title}]}))});

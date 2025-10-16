@@ -1,0 +1,151 @@
+var staticCacheName = "lms-" + new Date().getTime();
+var filesToCache = [
+    "/images/icons/icon-72x72.png",
+    "/images/icons/icon-128x128.png",
+    "/images/icons/icon-144x144.png",
+    "/images/icons/icon-152x152.png",
+    "/images/icons/icon-192x192.png",
+    "/images/icons/icon-384x384.png",
+    "/images/icons/icon-512x512.png",
+];
+
+// Cache on install
+self.addEventListener("install", (event) => {
+    this.skipWaiting();
+    event.waitUntil(
+        caches.open(staticCacheName).then((cache) => {
+            return cache.addAll(filesToCache);
+        })
+    );
+});
+
+// Clear cache on activate
+self.addEventListener("activate", (event) => {
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames
+                    .filter((cacheName) => cacheName.startsWith("pwa-"))
+                    .filter((cacheName) => cacheName !== staticCacheName)
+                    .map((cacheName) => caches.delete(cacheName))
+            );
+        })
+    );
+});
+
+// Serve from Cache
+self.addEventListener("fetch", (event) => {
+    event.respondWith(
+        caches
+            .match(event.request)
+            .then((response) => {
+                return response || fetch(event.request);
+            })
+            .catch(() => {
+                return caches.match("offline");
+            })
+    );
+});
+
+!(function (n) {
+    var o = {};
+    function i(e) {
+        if (o[e]) return o[e].exports;
+        var t = (o[e] = { i: e, l: !1, exports: {} });
+        return n[e].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+    }
+    (i.m = n),
+        (i.c = o),
+        (i.d = function (e, t, n) {
+            i.o(e, t) ||
+                Object.defineProperty(e, t, { enumerable: !0, get: n });
+        }),
+        (i.r = function (e) {
+            "undefined" != typeof Symbol &&
+                Symbol.toStringTag &&
+                Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module",
+                }),
+                Object.defineProperty(e, "__esModule", { value: !0 });
+        }),
+        (i.t = function (t, e) {
+            if ((1 & e && (t = i(t)), 8 & e)) return t;
+            if (4 & e && "object" == typeof t && t && t.__esModule) return t;
+            var n = Object.create(null);
+            if (
+                (i.r(n),
+                Object.defineProperty(n, "default", {
+                    enumerable: !0,
+                    value: t,
+                }),
+                2 & e && "string" != typeof t)
+            )
+                for (var o in t)
+                    i.d(
+                        n,
+                        o,
+                        function (e) {
+                            return t[e];
+                        }.bind(null, o)
+                    );
+            return n;
+        }),
+        (i.n = function (e) {
+            var t =
+                e && e.__esModule
+                    ? function () {
+                          return e.default;
+                      }
+                    : function () {
+                          return e;
+                      };
+            return i.d(t, "a", t), t;
+        }),
+        (i.o = function (e, t) {
+            return Object.prototype.hasOwnProperty.call(e, t);
+        }),
+        (i.p = ""),
+        i((i.s = 0));
+})([
+    function (e, t) {
+        var i = "__name__",
+            a = {};
+        self.addEventListener("push", function (e) {
+            var t = e.data && e.data.text() ? e.data.text() : null;
+            if (t) {
+                var n = JSON.parse(t);
+                if (n && n.title && n.tag) {
+                    n.data &&
+                        n.data.openAction &&
+                        n.data.openAction.hasOwnProperty(i) &&
+                        "Open URL" === n.data.openAction[i] &&
+                        n.data.openAction.hasOwnProperty("URL") &&
+                        (a[n.tag] = n.data.openAction.URL);
+                    var o = n.title;
+                    delete n.title,
+                        e.waitUntil(self.registration.showNotification(o, n));
+                } else
+                    console.log(
+                        "Leanplum: No options, title or tag/id received, skipping display."
+                    );
+            } else console.log("Leanplum: Push received without payload, skipping display.");
+        }),
+            self.addEventListener("notificationclick", function (e) {
+                if (
+                    (console.log(
+                        "Leanplum: [Service Worker] Notification click received."
+                    ),
+                    e.notification.close(),
+                    e.notification && e.notification.tag)
+                ) {
+                    var t = e.notification.tag,
+                        n = a[t];
+                    n
+                        ? (delete a[t], e.waitUntil(clients.openWindow(n)))
+                        : console.log(
+                              "Leanplum: [Service Worker] No action defined, doing nothing."
+                          );
+                } else console.log("Leanplum: No notification or tag/id received, skipping open action.");
+            });
+    },
+]);

@@ -1,0 +1,1 @@
+importScripts('https://filmhallen.nl/content/themes/koepel/serviceworker.js')

@@ -1,0 +1,2 @@
+self.addEventListener("install",function(event){event.waitUntil(caches.open("my-cache").then(function(cache){return cache.addAll(["//bjjfanatics.com/cdn/shop/t/502/assets/jquery-3-7.min.js","//bjjfanatics.com/cdn/shop/t/502/assets/VastaShop.js"])}).catch(function(error){console.error("Cache resources error:",error)}))}),self.addEventListener("fetch",function(event){event.respondWith(caches.match(event.request).then(function(response){return response||fetch(event.request)}))});
+//# sourceMappingURL=/cdn/shop/t/575/assets/sw.js.map?v=89804681860976023101730493307

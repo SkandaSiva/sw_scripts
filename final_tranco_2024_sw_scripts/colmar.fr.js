@@ -1,0 +1,1 @@
+importScripts("/modules/custom/advanced_pwa/js/service_worker.js?sjngpv");

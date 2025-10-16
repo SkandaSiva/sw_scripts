@@ -1,0 +1,1 @@
+self.addEventListener("fetch",function(event){});importScripts('https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js');importScripts('https://www.gstatic.com/firebasejs/5.9.2/firebase-messaging.js');firebase.initializeApp({messagingSenderId:'636559003311'});var messaging=firebase.messaging();

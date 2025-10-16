@@ -1,0 +1,1 @@
+self.addEventListener("message",(e=>{const s=self.clients.matchAll().then((s=>{const t=e.data,a=e.source.id;s.forEach((e=>{e.id!==a&&e.postMessage({client:a,message:t})}))}));e.waitUntil&&e.waitUntil(s)}));

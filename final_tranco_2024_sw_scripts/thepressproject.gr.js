@@ -1,0 +1,1 @@
+self.importScripts('https://cdn.thepressproject.gr/service-worker.js');

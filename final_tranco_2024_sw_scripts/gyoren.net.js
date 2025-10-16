@@ -1,0 +1,1 @@
+importScripts("https://user.fspark-ap.com/js/sw.js");

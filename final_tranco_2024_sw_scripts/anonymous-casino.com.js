@@ -1,0 +1,1 @@
+importScripts("/thirdPartyResourcesWorker.js"),importScripts("/pwaServiceWorker.js");

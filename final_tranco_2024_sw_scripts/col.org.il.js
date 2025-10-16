@@ -1,0 +1,3 @@
+self.addEventListener('push',function(event){if(event.data&&event.data.text()){var json=true;try{var data=JSON.parse(event.data.text());}catch(e){json=false;}
+if(json&&data.title){var title=data.title;var options=data;event.waitUntil(self.registration.showNotification(title,options));return;}}});self.addEventListener('notificationclick',function(event){var data=event.notification.data;if(data.url){event.waitUntil(clients.openWindow(data.url));}else if(data.alert){alert(data.alert);}else{alert('Push clicked');}
+event.notification.close();});

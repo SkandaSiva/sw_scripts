@@ -1,0 +1,1 @@
+importScripts('https://assets.aweber-static.com/wpn/service-worker.js');

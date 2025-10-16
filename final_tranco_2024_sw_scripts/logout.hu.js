@@ -1,0 +1,1 @@
+self.addEventListener("push",function(i){i=i.data.json();self.registration.showNotification(i.title,{body:i.body,icon:i.icon,data:{url:i.url},image:i.image})}),self.addEventListener("notificationclick",function(i){clients.openWindow(i.notification.data.url),i.notification.close()});

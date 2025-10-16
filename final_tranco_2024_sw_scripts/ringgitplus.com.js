@@ -1,0 +1,1 @@
+var config={apiKey:'AIzaSyDcatGIbyt_jAYUPpK03TESym44-MOhY9o',messagingSenderId:'277075222538',appId:'1:277075222538:web:ac7bd3a28f750c6d93fff3',projectId:'ringgitplus-netcore',user_key:'ADGMOT35CHFLVDHBJNIG50K9682PN0DN550226E18TN0MRIESNTG',siteid:'574ab62fcc9b5d31b846714a08ed3eed'};importScripts('//cdnt.netcoresmartech.com/swv4.js');

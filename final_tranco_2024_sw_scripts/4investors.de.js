@@ -1,0 +1,1 @@
+importScripts("https://api.signalize.com/sw.js");

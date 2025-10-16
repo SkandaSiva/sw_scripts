@@ -1,0 +1,2 @@
+importScripts('https://aswpsdkeu.com/notify/v1/ua-sdk.min.js')
+uaSetup.worker(self,{defaultIcon:'https://mobilecrm.accengage.com/images/logo_application/202368.png',defaultTitle:'Marca',defaultActionURL:'https://www.marca.com',appKey:'Yvb0R1AWTumLCdeAxrqd3Q',token:'MTpZdmIwUjFBV1R1bUxDZGVBeHJxZDNROklTTGRXejZsWWl3ZnhRLTVqbkpLaEtUN25WTkpCZ3hrVkh5YnhidVFacGs',vapidPublicKey:'BPBSEaOP5OVRBe5pT0B0gTE49a-UJPJ37YyZBXvGNu84yLyVfWSa2a2jFJpqb0Vys6dJS6T1417FyySjzFEcp6M'})

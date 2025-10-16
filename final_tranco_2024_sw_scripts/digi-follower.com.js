@@ -1,0 +1,1 @@
+var site_url='https://www.digi-follower.com';importScripts('https://www.digi-follower.com/wp-content/plugins/letspush/js/letspush_service_worker.min.js');

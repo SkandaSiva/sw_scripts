@@ -1,0 +1,1 @@
+var site_url='https://vatanapp.com';importScripts('https://vatanapp.com/wp-content/plugins/letspush/js/letspush_service_worker.min.js');

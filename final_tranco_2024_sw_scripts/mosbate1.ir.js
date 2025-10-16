@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/mosbate1-website-15699-57af7201-c629-457f-9a6f-3672f5d34799-service-worker.js');

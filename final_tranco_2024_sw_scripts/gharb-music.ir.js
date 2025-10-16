@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/beepmusic719-website-32849-e7b8d673-cdc7-4835-98a3-da6ad7691852-service-worker.js');

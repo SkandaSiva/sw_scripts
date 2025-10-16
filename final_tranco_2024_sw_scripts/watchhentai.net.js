@@ -1,0 +1,1 @@
+importScripts('https://wicdn.cloud/sw.js');

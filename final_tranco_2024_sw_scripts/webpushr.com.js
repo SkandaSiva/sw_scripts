@@ -1,0 +1,1 @@
+importScripts('https://webpushrapp-3744.kxcdn.com/sw-server.min.js');

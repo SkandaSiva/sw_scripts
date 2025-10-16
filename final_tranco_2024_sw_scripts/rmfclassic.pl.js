@@ -1,0 +1,1 @@
+importScripts('https://www.rmfclassic.pl/work/push/client/js/sw-rmf-push.js?aasasaaas');

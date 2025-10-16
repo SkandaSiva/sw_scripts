@@ -1,0 +1,1 @@
+importScripts('https://media-fitapetit.ipresso.pl/pushServiceWorker.js?ver=1&idCus=LnLJObkKBWixWQh90rVht9PUd4hXauIKHLL3aI6QgsQ.')

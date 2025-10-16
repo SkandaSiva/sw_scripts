@@ -1,0 +1,7 @@
+importScripts('https://cdn.jsdelivr.net/npm/workbox-cdn@4.3.1/workbox/workbox-sw.js')
+workbox.setConfig({"debug":false})
+workbox.core.clientsClaim()
+workbox.core.skipWaiting()
+workbox.precaching.cleanupOutdatedCaches()
+workbox.routing.registerRoute(new RegExp('/_nuxt/'),new workbox.strategies.CacheFirst({}),'GET')
+workbox.routing.registerRoute(new RegExp('/'),new workbox.strategies.NetworkFirst({}),'GET')

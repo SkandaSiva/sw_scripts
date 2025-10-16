@@ -1,0 +1,1 @@
+!function(){const a="pwa-v1";console.log("CACHE_NAME",a),self.addEventListener("install",(async e=>{const t=await caches.open(a);await t.addAll([]),await self.skipWaiting()})),self.addEventListener("activate",(async e=>{(await caches.keys()).forEach((e=>{e!==a&&caches.delete(e)})),await self.clients.claim()})),self.addEventListener("fetch",(a=>{}))}();

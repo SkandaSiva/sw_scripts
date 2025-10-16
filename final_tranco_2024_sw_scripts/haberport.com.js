@@ -1,0 +1,1 @@
+(()=>{let e="https://app.qushad.com/sw.js?appId="+function(e,p=location.href){e=e.replace(/[\[\]]/g,"\\$&");var a=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(p);return a?a[2]?decodeURIComponent(a[2].replace(/\+/g," ")):"":null}("appId");importScripts(e)})();

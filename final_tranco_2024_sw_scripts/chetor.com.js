@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/chetor-66-aff243cd-bbcf-40a1-8e57-e2668c17f87b-service-worker.js');

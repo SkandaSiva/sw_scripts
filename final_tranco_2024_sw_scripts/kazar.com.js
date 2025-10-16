@@ -1,0 +1,2 @@
+importScripts("https://sherlock.ecdp.cloud/scripts/sw.min.js");
+

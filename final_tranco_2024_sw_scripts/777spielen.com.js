@@ -1,0 +1,1 @@
+importScripts("//alert.guru/projects/lN49r2/sw.js?version=1.0.0");

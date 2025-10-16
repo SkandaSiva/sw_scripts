@@ -1,0 +1,1 @@
+importScripts("https://dash.megapulse.app/assets/js/sw-host.js");

@@ -1,0 +1,1 @@
+typeof importScripts === "function" && importScripts('https://booster.reproio.com/assets/js/sw');

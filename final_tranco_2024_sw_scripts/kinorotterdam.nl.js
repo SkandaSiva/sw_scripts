@@ -1,0 +1,1 @@
+importScripts('https://kinorotterdam.nl/content/themes/koepel/serviceworker.js')

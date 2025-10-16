@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/soundsnap-website-10047-65f5aff9-5fd4-476d-8976-d495afe6a9b6-service-worker.js');
